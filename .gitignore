@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+bookshelf_db.sqlite3
+.env
+media/
