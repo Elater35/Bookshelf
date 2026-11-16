@@ -4,3 +4,4 @@ __pycache__/
 bookshelf_db.sqlite3
 .env
 media/
+.idea/

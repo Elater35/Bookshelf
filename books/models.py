@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Category(models.Model):
-    name = models.CharField(max_length=100, verbose_name="Назва категорії")
+    name = models.CharField(max_length=100, unique=True, verbose_name="Назва категорії")
     slug = models.SlugField(max_length=100, unique=True, verbose_name="URL-слаг")
 
     def __str__(self) -> str:
